@@ -10,5 +10,9 @@ public class calss1 {
     person person1 = new person();
         person1.name = "tt";
         System.out.println(person1.name);
+
+
+
+
     }
 }
