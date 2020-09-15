@@ -1,7 +1,9 @@
 public class CircleTest {
     public static void main(String[] args) {
-        Circle circle1 = new Circle();
-        float circleS = circle1.s(2);
+        Circle circle = new Circle();
+
+        circle.radius = 2;
+        double circleS = circle.Area();
         System.out.println(circleS);
     }
 }
