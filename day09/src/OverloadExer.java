@@ -1,4 +1,4 @@
-public class mOL {
+public class OverloadExer {
     //三个重载函数mOL
     public void mOL(int m){
         System.out.println(m * m);
@@ -27,5 +27,3 @@ public class mOL {
         return (max > l)? max : l;
     }
 }
-
-

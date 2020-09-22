@@ -1,6 +1,6 @@
-public class mOL_Test {
+public class OverloadTest {
     public static void main(String[] args) {
-        mOL test = new mOL();
+        OverloadExer test = new OverloadExer();
 
         test.mOL(2);
         test.mOL(3,4);
