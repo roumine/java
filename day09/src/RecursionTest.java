@@ -28,8 +28,9 @@ public class RecursionTest {
     }
 
     public int fei(int i){
-        if (i == 1 || i == 2) return 1;
-        return fei(i - 1) + fei(i - 2);
+        if (i == 0) return 1;
+        if (i == 1) return 4;
+        return 2*f(i - 1) + f(i - 2);
     }
 
 }
