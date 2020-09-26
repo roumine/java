@@ -9,8 +9,18 @@ public class Account {
     public double getBalance() {
         return balance;
     }
-    public void  desposit(double amt){//存钱
+
+    public void  deposit(double amt){//存钱
+        if (amt > 0){
+            balance += amt;
+            System.out.println("存款成功，余额为：" + this.getBalance());
+        }
     }
-    public void  withdraw(double amt){//取钱
+    public void withdraw(double amt){//取钱
+    if (amt > balance){
+        System.out.println("余额不足");
+    }
+    else
+        balance -= amt;
     }
 }

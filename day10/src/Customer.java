@@ -1,12 +1,12 @@
 public class Customer {
-    private String name;
-    private Account account;
+    private String name; //姓名
+    private Account account; //账号
 
     public Customer(String name){
         this.name = name;
     }
     public String getName(){
-        return name;
+        return this.name;
     }
     public Account getAccount(){
         return account;
