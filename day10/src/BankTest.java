@@ -8,7 +8,7 @@ public class BankTest {
         bank.getCustomers(0).getAccount().deposit(100);
         double balance = bank.getCustomers(0).getAccount().getBalance();
 
-        System.out.println(bank.getCustomers(0).getName());
+        System.out.println(balance + bank.getCustomers(0).getName());
     }
 
 
